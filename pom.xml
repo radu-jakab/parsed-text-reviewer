@@ -13,24 +13,32 @@
 		<version>1.5.1.RELEASE</version>
 	</parent>
 
+	<properties>
+		<java.version>1.8</java.version>
+
+		<springfox-swagger2.version>2.4.0</springfox-swagger2.version>
+	</properties>
+
 	<dependencies>
+		<!-- Spring Boot -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- Swagger -->
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
-			<version>2.4.0</version>
+			<version>${springfox-swagger2.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
-			<version>2.4.0</version>
+			<version>${springfox-swagger2.version}</version>
 		</dependency>
 
+		<!-- Spring data, H2 and hibernate -->
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-releasetrain</artifactId>
@@ -47,18 +55,32 @@
 			<artifactId>h2</artifactId>
 		</dependency>
 
+		<!-- Project Lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.16.14</version>
 			<scope>provided</scope>
 		</dependency>
+
+		<!-- Logging with SLF4J & LogBack -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<!-- Tools -->
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>1.4</version>
+		</dependency>
 	</dependencies>
-
-	<properties>
-		<java.version>1.8</java.version>
-	</properties>
-
 
 	<build>
 		<plugins>

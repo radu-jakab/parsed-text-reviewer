@@ -1,0 +1,1126 @@
+[00:27:17.631] INFO ro.code4.textParserReview.Application    : Starting Application on DESKTOP-SSN5OUM with PID 16084 (C:\Users\RJA\Repos\code4romania-parsed-text-reviewer\target\classes started by RJA in C:\Users\RJA\Repos\code4romania-parsed-text-reviewer)
+[00:27:17.633] DEBUG ro.code4.textParserReview.Application    : Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+[00:27:17.634] INFO ro.code4.textParserReview.Application    : No active profile set, falling back to default profiles: default
+[00:27:22.852] INFO d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[00:27:22.873] INFO d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[00:27:22.882] INFO s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[00:27:22.898] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+[00:27:22.899] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |error|
+[00:27:22.900] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |error|
+[00:27:22.902] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |error|
+[00:27:22.908] DEBUG s.d.schema.DefaultModelProvider          : Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+[00:27:22.909] DEBUG s.d.spring.web.scanners.ApiModelReader   : Did not find any parameter models for java.util.Map<java.lang.String,java.lang.Object>
+[00:27:22.910] DEBUG s.d.s.DefaultModelDependencyProvider     : Marking base type Ljava/lang/Object; as seen
+[00:27:22.922] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:27:22.929] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:27:22.931] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:27:22.938] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:27:22.939] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:27:22.940] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:27:22.941] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:27:22.942] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:27:22.943] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:27:22.944] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:27:22.945] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:27:22.946] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:27:22.948] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:27:22.949] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:27:22.949] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:27:22.951] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:27:22.952] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:27:22.952] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:27:22.954] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:27:22.954] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:27:22.955] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:27:22.956] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:27:22.957] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:27:22.958] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:27:22.972] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+[00:27:22.972] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |errorHtml|
+[00:27:22.972] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |errorHtml|
+[00:27:22.972] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |errorHtml|
+[00:27:22.999] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property view
+[00:27:23.007] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:27:23.009] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'view' renamed to 'view'
+[00:27:23.009] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property view to model
+[00:27:23.010] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:27:23.011] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:27:23.011] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:27:23.011] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:27:23.015] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property model
+[00:27:23.016] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:27:23.016] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'model' renamed to 'model'
+[00:27:23.016] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property model to model
+[00:27:23.017] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:27:23.017] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:27:23.017] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:27:23.017] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:27:23.018] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property status
+[00:27:23.019] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:27:23.020] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'status' renamed to 'status'
+[00:27:23.020] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property status to model
+[00:27:23.020] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:27:23.020] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:27:23.021] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:27:23.021] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:27:23.026] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property empty
+[00:27:23.027] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:27:23.027] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'empty' renamed to 'empty'
+[00:27:23.028] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property empty to model
+[00:27:23.028] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:27:23.028] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:27:23.028] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:27:23.029] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:27:23.029] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property viewName
+[00:27:23.029] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:27:23.029] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'viewName' renamed to 'viewName'
+[00:27:23.029] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property viewName to model
+[00:27:23.029] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:27:23.029] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:27:23.030] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:27:23.030] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:27:23.030] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property reference
+[00:27:23.030] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:27:23.030] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'reference' renamed to 'reference'
+[00:27:23.030] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property reference to model
+[00:27:23.030] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:27:23.030] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:27:23.030] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:27:23.031] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:27:23.031] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property modelMap
+[00:27:23.031] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:27:23.031] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'modelMap' renamed to 'modelMap'
+[00:27:23.031] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property modelMap to model
+[00:27:23.031] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:27:23.031] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:27:23.031] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:27:23.031] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:27:23.047] DEBUG s.d.schema.DefaultModelProvider          : Inferred 7 properties. Properties found empty, model, modelMap, reference, status, view, viewName
+[00:27:23.049] DEBUG s.d.spring.web.scanners.ApiModelReader   : Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+[00:27:23.050] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key ModelAndView
+[00:27:23.052] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+[00:27:23.053] DEBUG s.d.s.DefaultModelDependencyProvider     : Recursively resolving dependencies for value type Ljava/lang/Object;
+[00:27:23.054] DEBUG s.d.s.DefaultModelDependencyProvider     : Marking base type Ljava/lang/Object; as seen
+[00:27:23.056] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding type Lorg/springframework/web/servlet/View; for parameter view
+[00:27:23.056] DEBUG s.d.s.DefaultModelDependencyProvider     : Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+[00:27:23.057] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property contentType
+[00:27:23.058] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:27:23.058] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'contentType' renamed to 'contentType'
+[00:27:23.058] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property contentType to model
+[00:27:23.058] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:27:23.058] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:27:23.058] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:27:23.059] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:27:23.059] DEBUG s.d.schema.DefaultModelProvider          : Inferred 1 properties. Properties found contentType
+[00:27:23.060] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key View
+[00:27:23.061] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:27:23.062] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:27:23.063] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:27:23.064] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:27:23.065] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:27:23.066] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:27:23.070] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:27:23.071] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:27:23.072] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:27:23.074] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:27:23.075] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:27:23.076] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:27:23.077] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:27:23.078] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:27:23.079] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:27:23.081] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:27:23.084] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:27:23.085] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:27:23.086] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:27:23.087] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:27:23.088] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:27:23.090] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:27:23.091] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:27:23.092] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:27:23.120] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Ljava/lang/String;
+[00:27:23.121] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |acceptParsedText|
+[00:27:23.121] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding input parameter of type Lro/code4/textParserReview/entity/ParsedInput;
+[00:27:23.122] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |acceptParsedText|
+[00:27:23.122] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |acceptParsedText|
+[00:27:23.122] DEBUG s.d.schema.DefaultModelProvider          : Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+[00:27:23.122] DEBUG s.d.spring.web.scanners.ApiModelReader   : Did not find any parameter models for java.lang.String
+[00:27:23.123] DEBUG s.d.s.DefaultModelDependencyProvider     : Marking base type Ljava/lang/String; as seen
+[00:27:23.124] DEBUG s.d.schema.DefaultModelProvider          : Inferred 0 properties. Properties found 
+[00:27:23.124] DEBUG s.d.spring.web.scanners.ApiModelReader   : Generated parameter model id: ParsedInput, name: ParsedInput, schema: {} models
+[00:27:23.124] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key ParsedInput
+[00:27:23.135] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:string
+[00:27:23.136] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method acceptParsedText
+[00:27:23.137] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:string
+[00:27:23.138] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Ljava/lang/String;
+[00:27:23.138] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |hello|
+[00:27:23.138] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |hello|
+[00:27:23.139] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |hello|
+[00:27:23.139] DEBUG s.d.spring.web.scanners.ApiModelReader   : Did not find any parameter models for java.lang.String
+[00:27:23.140] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:string
+[00:27:23.140] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method hello
+[00:27:23.141] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:string
+[00:27:23.216] INFO ro.code4.textParserReview.Application    : Started Application in 6.138 seconds (JVM running for 6.552)
+[00:29:44.093] INFO ro.code4.textParserReview.Application    : Starting Application on DESKTOP-SSN5OUM with PID 11468 (C:\Users\RJA\Repos\code4romania-parsed-text-reviewer\target\classes started by RJA in C:\Users\RJA\Repos\code4romania-parsed-text-reviewer)
+[00:29:44.096] INFO ro.code4.textParserReview.Application    : No active profile set, falling back to default profiles: default
+[00:29:48.999] INFO d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[00:29:49.017] INFO d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[00:29:49.029] INFO s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[00:29:49.045] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+[00:29:49.046] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |error|
+[00:29:49.047] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |error|
+[00:29:49.049] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |error|
+[00:29:49.057] DEBUG s.d.schema.DefaultModelProvider          : Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+[00:29:49.058] DEBUG s.d.spring.web.scanners.ApiModelReader   : Did not find any parameter models for java.util.Map<java.lang.String,java.lang.Object>
+[00:29:49.058] DEBUG s.d.s.DefaultModelDependencyProvider     : Marking base type Ljava/lang/Object; as seen
+[00:29:49.069] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:29:49.075] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:29:49.077] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:29:49.083] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:29:49.084] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:29:49.085] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:29:49.086] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:29:49.088] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:29:49.089] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:29:49.091] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:29:49.092] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:29:49.093] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:29:49.095] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:29:49.096] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:29:49.097] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:29:49.099] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:29:49.100] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:29:49.101] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:29:49.102] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:29:49.103] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:29:49.105] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:29:49.107] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:29:49.108] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:29:49.109] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:29:49.125] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+[00:29:49.125] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |errorHtml|
+[00:29:49.125] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |errorHtml|
+[00:29:49.125] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |errorHtml|
+[00:29:49.151] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property view
+[00:29:49.155] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:29:49.157] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'view' renamed to 'view'
+[00:29:49.158] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property view to model
+[00:29:49.159] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:29:49.159] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:29:49.159] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:29:49.159] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:29:49.163] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property model
+[00:29:49.163] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:29:49.164] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'model' renamed to 'model'
+[00:29:49.164] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property model to model
+[00:29:49.164] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:29:49.164] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:29:49.164] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:29:49.164] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:29:49.164] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property status
+[00:29:49.164] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:29:49.165] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'status' renamed to 'status'
+[00:29:49.165] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property status to model
+[00:29:49.165] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:29:49.165] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:29:49.165] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:29:49.165] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:29:49.167] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property empty
+[00:29:49.168] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:29:49.168] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'empty' renamed to 'empty'
+[00:29:49.169] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property empty to model
+[00:29:49.169] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:29:49.169] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:29:49.169] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:29:49.169] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:29:49.169] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property viewName
+[00:29:49.169] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:29:49.169] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'viewName' renamed to 'viewName'
+[00:29:49.170] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property viewName to model
+[00:29:49.170] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:29:49.170] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:29:49.170] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:29:49.170] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:29:49.170] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property reference
+[00:29:49.170] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:29:49.170] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'reference' renamed to 'reference'
+[00:29:49.172] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property reference to model
+[00:29:49.172] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:29:49.172] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:29:49.173] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:29:49.173] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:29:49.173] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property modelMap
+[00:29:49.173] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:29:49.174] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'modelMap' renamed to 'modelMap'
+[00:29:49.174] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property modelMap to model
+[00:29:49.174] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:29:49.175] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:29:49.175] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:29:49.175] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:29:49.186] DEBUG s.d.schema.DefaultModelProvider          : Inferred 7 properties. Properties found empty, model, modelMap, reference, status, view, viewName
+[00:29:49.189] DEBUG s.d.spring.web.scanners.ApiModelReader   : Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+[00:29:49.189] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key ModelAndView
+[00:29:49.190] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+[00:29:49.191] DEBUG s.d.s.DefaultModelDependencyProvider     : Recursively resolving dependencies for value type Ljava/lang/Object;
+[00:29:49.191] DEBUG s.d.s.DefaultModelDependencyProvider     : Marking base type Ljava/lang/Object; as seen
+[00:29:49.191] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding type Lorg/springframework/web/servlet/View; for parameter view
+[00:29:49.191] DEBUG s.d.s.DefaultModelDependencyProvider     : Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+[00:29:49.192] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property contentType
+[00:29:49.192] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:29:49.192] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'contentType' renamed to 'contentType'
+[00:29:49.192] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property contentType to model
+[00:29:49.192] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:29:49.192] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:29:49.193] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:29:49.193] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:29:49.194] DEBUG s.d.schema.DefaultModelProvider          : Inferred 1 properties. Properties found contentType
+[00:29:49.194] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key View
+[00:29:49.195] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:29:49.196] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:29:49.197] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:29:49.198] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:29:49.199] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:29:49.199] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:29:49.201] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:29:49.201] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:29:49.202] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:29:49.203] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:29:49.204] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:29:49.205] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:29:49.207] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:29:49.208] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:29:49.210] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:29:49.211] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:29:49.212] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:29:49.213] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:29:49.214] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:29:49.214] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:29:49.215] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:29:49.216] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:29:49.217] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:29:49.218] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:29:49.239] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Ljava/lang/String;
+[00:29:49.239] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |acceptParsedText|
+[00:29:49.240] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding input parameter of type Lro/code4/textParserReview/entity/ParsedInput;
+[00:29:49.240] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |acceptParsedText|
+[00:29:49.240] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |acceptParsedText|
+[00:29:49.241] DEBUG s.d.schema.DefaultModelProvider          : Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+[00:29:49.241] DEBUG s.d.spring.web.scanners.ApiModelReader   : Did not find any parameter models for java.lang.String
+[00:29:49.241] DEBUG s.d.s.DefaultModelDependencyProvider     : Marking base type Ljava/lang/String; as seen
+[00:29:49.242] DEBUG s.d.schema.DefaultModelProvider          : Inferred 0 properties. Properties found 
+[00:29:49.242] DEBUG s.d.spring.web.scanners.ApiModelReader   : Generated parameter model id: ParsedInput, name: ParsedInput, schema: {} models
+[00:29:49.242] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key ParsedInput
+[00:29:49.251] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:string
+[00:29:49.252] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method acceptParsedText
+[00:29:49.252] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:string
+[00:29:49.253] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Ljava/lang/String;
+[00:29:49.253] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |hello|
+[00:29:49.254] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |hello|
+[00:29:49.254] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |hello|
+[00:29:49.254] DEBUG s.d.spring.web.scanners.ApiModelReader   : Did not find any parameter models for java.lang.String
+[00:29:49.255] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:string
+[00:29:49.256] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method hello
+[00:29:49.256] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:string
+[00:29:49.329] INFO ro.code4.textParserReview.Application    : Started Application in 5.591 seconds (JVM running for 5.947)
+[00:32:35.086] INFO ro.code4.textParserReview.Application    : Starting Application on DESKTOP-SSN5OUM with PID 14304 (C:\Users\RJA\Repos\code4romania-parsed-text-reviewer\target\classes started by RJA in C:\Users\RJA\Repos\code4romania-parsed-text-reviewer)
+[00:32:35.089] INFO ro.code4.textParserReview.Application    : No active profile set, falling back to default profiles: default
+[00:32:39.789] INFO d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[00:32:39.817] INFO d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[00:32:39.830] INFO s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[00:32:39.850] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+[00:32:39.851] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |error|
+[00:32:39.852] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |error|
+[00:32:39.863] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |error|
+[00:32:39.876] DEBUG s.d.schema.DefaultModelProvider          : Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+[00:32:39.878] DEBUG s.d.spring.web.scanners.ApiModelReader   : Did not find any parameter models for java.util.Map<java.lang.String,java.lang.Object>
+[00:32:39.879] DEBUG s.d.s.DefaultModelDependencyProvider     : Marking base type Ljava/lang/Object; as seen
+[00:32:39.892] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:32:39.897] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:32:39.899] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:32:39.905] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:32:39.906] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:32:39.907] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:32:39.911] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:32:39.913] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:32:39.914] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:32:39.917] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:32:39.918] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:32:39.919] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:32:39.920] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:32:39.921] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:32:39.922] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:32:39.925] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:32:39.926] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:32:39.927] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:32:39.928] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:32:39.929] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:32:39.930] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:32:39.931] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:32:39.932] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:32:39.933] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:32:39.948] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+[00:32:39.948] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |errorHtml|
+[00:32:39.948] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |errorHtml|
+[00:32:39.949] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |errorHtml|
+[00:32:39.974] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property view
+[00:32:39.980] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:32:39.981] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'view' renamed to 'view'
+[00:32:39.981] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property view to model
+[00:32:39.982] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:32:39.982] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:32:39.983] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:32:39.983] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:32:39.986] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property model
+[00:32:39.986] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:32:39.986] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'model' renamed to 'model'
+[00:32:39.987] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property model to model
+[00:32:39.987] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:32:39.987] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:32:39.987] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:32:39.987] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:32:39.987] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property status
+[00:32:39.987] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:32:39.988] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'status' renamed to 'status'
+[00:32:39.988] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property status to model
+[00:32:39.988] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:32:39.988] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:32:39.988] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:32:39.988] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:32:39.992] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property empty
+[00:32:39.992] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:32:39.993] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'empty' renamed to 'empty'
+[00:32:39.993] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property empty to model
+[00:32:39.993] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:32:39.993] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:32:39.993] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:32:39.993] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:32:39.993] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property viewName
+[00:32:39.994] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:32:39.994] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'viewName' renamed to 'viewName'
+[00:32:39.994] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property viewName to model
+[00:32:39.994] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:32:39.994] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:32:39.995] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:32:39.995] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:32:39.995] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property reference
+[00:32:39.995] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:32:39.995] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'reference' renamed to 'reference'
+[00:32:39.995] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property reference to model
+[00:32:39.995] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:32:39.995] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:32:39.995] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:32:39.995] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:32:39.996] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property modelMap
+[00:32:39.996] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:32:39.996] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'modelMap' renamed to 'modelMap'
+[00:32:39.996] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property modelMap to model
+[00:32:39.996] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:32:39.996] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:32:39.996] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:32:39.996] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:32:40.007] DEBUG s.d.schema.DefaultModelProvider          : Inferred 7 properties. Properties found empty, model, modelMap, reference, status, view, viewName
+[00:32:40.009] DEBUG s.d.spring.web.scanners.ApiModelReader   : Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+[00:32:40.009] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key ModelAndView
+[00:32:40.010] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+[00:32:40.010] DEBUG s.d.s.DefaultModelDependencyProvider     : Recursively resolving dependencies for value type Ljava/lang/Object;
+[00:32:40.011] DEBUG s.d.s.DefaultModelDependencyProvider     : Marking base type Ljava/lang/Object; as seen
+[00:32:40.011] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding type Lorg/springframework/web/servlet/View; for parameter view
+[00:32:40.011] DEBUG s.d.s.DefaultModelDependencyProvider     : Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+[00:32:40.011] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property contentType
+[00:32:40.012] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:32:40.012] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'contentType' renamed to 'contentType'
+[00:32:40.012] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property contentType to model
+[00:32:40.012] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:32:40.012] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:32:40.012] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:32:40.012] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:32:40.013] DEBUG s.d.schema.DefaultModelProvider          : Inferred 1 properties. Properties found contentType
+[00:32:40.013] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key View
+[00:32:40.014] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:32:40.015] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:32:40.016] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:32:40.017] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:32:40.018] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:32:40.019] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:32:40.020] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:32:40.021] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:32:40.021] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:32:40.023] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:32:40.023] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:32:40.024] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:32:40.025] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:32:40.026] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:32:40.027] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:32:40.029] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:32:40.030] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:32:40.030] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:32:40.031] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:32:40.032] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:32:40.032] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:32:40.033] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:32:40.034] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:32:40.034] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:32:40.061] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Ljava/lang/String;
+[00:32:40.061] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |acceptParsedText|
+[00:32:40.061] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding input parameter of type Lro/code4/textParserReview/entity/ParsedInput;
+[00:32:40.061] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |acceptParsedText|
+[00:32:40.061] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |acceptParsedText|
+[00:32:40.062] DEBUG s.d.schema.DefaultModelProvider          : Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+[00:32:40.062] DEBUG s.d.spring.web.scanners.ApiModelReader   : Did not find any parameter models for java.lang.String
+[00:32:40.062] DEBUG s.d.s.DefaultModelDependencyProvider     : Marking base type Ljava/lang/String; as seen
+[00:32:40.064] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property id
+[00:32:40.065] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:32:40.065] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'id' renamed to 'id'
+[00:32:40.065] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property id to model
+[00:32:40.065] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:32:40.065] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:32:40.065] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:32:40.065] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:32:40.065] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property fullText
+[00:32:40.065] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFullText
+[00:32:40.065] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'fullText' renamed to 'fullText'
+[00:32:40.065] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property fullText to model
+[00:32:40.066] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFullText
+[00:32:40.066] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFullText
+[00:32:40.066] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFullText
+[00:32:40.066] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFullText
+[00:32:40.066] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property textType
+[00:32:40.066] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextType
+[00:32:40.066] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'textType' renamed to 'textType'
+[00:32:40.066] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property textType to model
+[00:32:40.066] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextType
+[00:32:40.066] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextType
+[00:32:40.066] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextType
+[00:32:40.066] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextType
+[00:32:40.066] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property textSourceId
+[00:32:40.067] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextSourceId
+[00:32:40.067] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'textSourceId' renamed to 'textSourceId'
+[00:32:40.067] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property textSourceId to model
+[00:32:40.067] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextSourceId
+[00:32:40.067] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextSourceId
+[00:32:40.067] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextSourceId
+[00:32:40.067] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextSourceId
+[00:32:40.067] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property parsedFields
+[00:32:40.067] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedFields
+[00:32:40.067] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'parsedFields' renamed to 'parsedFields'
+[00:32:40.067] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property parsedFields to model
+[00:32:40.067] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedFields
+[00:32:40.067] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedFields
+[00:32:40.068] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedFields
+[00:32:40.068] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedFields
+[00:32:40.068] DEBUG s.d.schema.DefaultModelProvider          : Inferred 5 properties. Properties found fullText, id, parsedFields, textSourceId, textType
+[00:32:40.069] DEBUG s.d.spring.web.scanners.ApiModelReader   : Generated parameter model id: ParsedInput, name: ParsedInput, schema: {} models
+[00:32:40.069] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key ParsedInput
+[00:32:40.069] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding type Ljava/util/List<Lro/code4/textParserReview/entity/ParsedInputFields;>; for parameter parsedFields
+[00:32:40.069] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding collectionElement type Lro/code4/textParserReview/entity/ParsedInputFields;
+[00:32:40.069] DEBUG s.d.s.DefaultModelDependencyProvider     : Recursively resolving dependencies for collectionElement type Lro/code4/textParserReview/entity/ParsedInputFields;
+[00:32:40.070] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property id
+[00:32:40.070] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:32:40.070] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'id' renamed to 'id'
+[00:32:40.070] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property id to model
+[00:32:40.070] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:32:40.070] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:32:40.070] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:32:40.071] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:32:40.071] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property parsedInputParent
+[00:32:40.071] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedInputParent
+[00:32:40.071] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property parentField
+[00:32:40.071] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParentField
+[00:32:40.071] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property fieldName
+[00:32:40.071] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFieldName
+[00:32:40.071] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'fieldName' renamed to 'fieldName'
+[00:32:40.071] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property fieldName to model
+[00:32:40.071] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFieldName
+[00:32:40.071] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFieldName
+[00:32:40.072] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFieldName
+[00:32:40.072] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFieldName
+[00:32:40.072] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property startPos
+[00:32:40.072] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setStartPos
+[00:32:40.072] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'startPos' renamed to 'startPos'
+[00:32:40.072] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property startPos to model
+[00:32:40.072] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setStartPos
+[00:32:40.072] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setStartPos
+[00:32:40.072] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setStartPos
+[00:32:40.073] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setStartPos
+[00:32:40.073] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property endPos
+[00:32:40.073] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setEndPos
+[00:32:40.074] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'endPos' renamed to 'endPos'
+[00:32:40.074] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property endPos to model
+[00:32:40.074] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setEndPos
+[00:32:40.074] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setEndPos
+[00:32:40.074] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setEndPos
+[00:32:40.074] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setEndPos
+[00:32:40.074] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property parsedValue
+[00:32:40.074] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedValue
+[00:32:40.074] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'parsedValue' renamed to 'parsedValue'
+[00:32:40.074] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property parsedValue to model
+[00:32:40.074] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedValue
+[00:32:40.074] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedValue
+[00:32:40.074] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedValue
+[00:32:40.074] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedValue
+[00:32:40.075] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property votes
+[00:32:40.075] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setVotes
+[00:32:40.075] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'votes' renamed to 'votes'
+[00:32:40.075] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property votes to model
+[00:32:40.075] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setVotes
+[00:32:40.075] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setVotes
+[00:32:40.075] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setVotes
+[00:32:40.075] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setVotes
+[00:32:40.075] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property parserId
+[00:32:40.075] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParserId
+[00:32:40.076] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'parserId' renamed to 'parserId'
+[00:32:40.076] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property parserId to model
+[00:32:40.076] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParserId
+[00:32:40.076] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParserId
+[00:32:40.076] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParserId
+[00:32:40.076] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParserId
+[00:32:40.078] DEBUG s.d.schema.DefaultModelProvider          : Skipping model of type Ljava/util/List<Lro/code4/textParserReview/entity/ParsedInputFields;>; as its either a container type, map, enum or base type, or its already been handled
+[00:32:40.078] DEBUG s.d.schema.DefaultModelProvider          : Inferred 7 properties. Properties found endPos, fieldName, id, parsedValue, parserId, startPos, votes
+[00:32:40.079] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key ParsedInputFields
+[00:32:40.088] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:string
+[00:32:40.089] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method acceptParsedText
+[00:32:40.090] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:string
+[00:32:40.091] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Ljava/lang/String;
+[00:32:40.091] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |hello|
+[00:32:40.091] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |hello|
+[00:32:40.092] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |hello|
+[00:32:40.092] DEBUG s.d.spring.web.scanners.ApiModelReader   : Did not find any parameter models for java.lang.String
+[00:32:40.093] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:string
+[00:32:40.094] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method hello
+[00:32:40.094] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:string
+[00:32:40.179] INFO ro.code4.textParserReview.Application    : Started Application in 5.428 seconds (JVM running for 5.764)
+[00:33:23.488] WARN .c.j.MappingJackson2HttpMessageConverter : Failed to evaluate Jackson deserialization for type [[simple type, class ro.code4.textParserReview.entity.ParsedInput]]: com.fasterxml.jackson.databind.JsonMappingException: Multiple back-reference properties with name 'defaultReference'
+[00:33:23.489] WARN .c.j.MappingJackson2HttpMessageConverter : Failed to evaluate Jackson deserialization for type [[simple type, class ro.code4.textParserReview.entity.ParsedInput]]: com.fasterxml.jackson.databind.JsonMappingException: Multiple back-reference properties with name 'defaultReference'
+[00:36:24.719] INFO ro.code4.textParserReview.Application    : Starting Application on DESKTOP-SSN5OUM with PID 13196 (C:\Users\RJA\Repos\code4romania-parsed-text-reviewer\target\classes started by RJA in C:\Users\RJA\Repos\code4romania-parsed-text-reviewer)
+[00:36:24.721] INFO ro.code4.textParserReview.Application    : No active profile set, falling back to default profiles: default
+[00:36:29.779] INFO d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[00:36:29.802] INFO d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[00:36:29.811] INFO s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[00:36:29.826] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+[00:36:29.827] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |error|
+[00:36:29.828] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |error|
+[00:36:29.830] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |error|
+[00:36:29.836] DEBUG s.d.schema.DefaultModelProvider          : Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+[00:36:29.837] DEBUG s.d.spring.web.scanners.ApiModelReader   : Did not find any parameter models for java.util.Map<java.lang.String,java.lang.Object>
+[00:36:29.838] DEBUG s.d.s.DefaultModelDependencyProvider     : Marking base type Ljava/lang/Object; as seen
+[00:36:29.851] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:36:29.856] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:36:29.858] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:36:29.867] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:36:29.867] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:36:29.868] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:36:29.869] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:36:29.870] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:36:29.870] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:36:29.871] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:36:29.873] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:36:29.874] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:36:29.876] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:36:29.877] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:36:29.877] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:36:29.879] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:36:29.880] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:36:29.881] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:36:29.883] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:36:29.884] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:36:29.885] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:36:29.886] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:36:29.887] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:36:29.888] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:36:29.905] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+[00:36:29.905] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |errorHtml|
+[00:36:29.906] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |errorHtml|
+[00:36:29.906] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |errorHtml|
+[00:36:29.931] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property view
+[00:36:29.935] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:36:29.936] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'view' renamed to 'view'
+[00:36:29.936] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property view to model
+[00:36:29.936] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:36:29.936] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:36:29.937] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:36:29.937] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:36:29.939] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property model
+[00:36:29.940] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:36:29.940] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'model' renamed to 'model'
+[00:36:29.940] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property model to model
+[00:36:29.940] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:36:29.940] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:36:29.940] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:36:29.940] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:36:29.941] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property status
+[00:36:29.941] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:36:29.941] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'status' renamed to 'status'
+[00:36:29.941] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property status to model
+[00:36:29.941] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:36:29.941] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:36:29.941] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:36:29.942] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:36:29.944] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property empty
+[00:36:29.945] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:36:29.946] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'empty' renamed to 'empty'
+[00:36:29.946] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property empty to model
+[00:36:29.946] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:36:29.946] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:36:29.946] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:36:29.946] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:36:29.946] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property viewName
+[00:36:29.946] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:36:29.947] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'viewName' renamed to 'viewName'
+[00:36:29.947] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property viewName to model
+[00:36:29.947] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:36:29.947] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:36:29.947] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:36:29.947] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:36:29.947] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property reference
+[00:36:29.947] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:36:29.947] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'reference' renamed to 'reference'
+[00:36:29.947] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property reference to model
+[00:36:29.948] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:36:29.948] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:36:29.948] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:36:29.948] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:36:29.948] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property modelMap
+[00:36:29.948] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:36:29.948] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'modelMap' renamed to 'modelMap'
+[00:36:29.949] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property modelMap to model
+[00:36:29.949] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:36:29.949] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:36:29.949] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:36:29.949] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:36:29.959] DEBUG s.d.schema.DefaultModelProvider          : Inferred 7 properties. Properties found empty, model, modelMap, reference, status, view, viewName
+[00:36:29.961] DEBUG s.d.spring.web.scanners.ApiModelReader   : Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+[00:36:29.961] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key ModelAndView
+[00:36:29.962] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+[00:36:29.963] DEBUG s.d.s.DefaultModelDependencyProvider     : Recursively resolving dependencies for value type Ljava/lang/Object;
+[00:36:29.963] DEBUG s.d.s.DefaultModelDependencyProvider     : Marking base type Ljava/lang/Object; as seen
+[00:36:29.963] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding type Lorg/springframework/web/servlet/View; for parameter view
+[00:36:29.963] DEBUG s.d.s.DefaultModelDependencyProvider     : Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+[00:36:29.964] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property contentType
+[00:36:29.964] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:36:29.964] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'contentType' renamed to 'contentType'
+[00:36:29.964] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property contentType to model
+[00:36:29.964] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:36:29.964] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:36:29.964] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:36:29.965] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:36:29.965] DEBUG s.d.schema.DefaultModelProvider          : Inferred 1 properties. Properties found contentType
+[00:36:29.965] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key View
+[00:36:29.967] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:36:29.968] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:36:29.970] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:36:29.971] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:36:29.972] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:36:29.973] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:36:29.974] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:36:29.974] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:36:29.975] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:36:29.976] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:36:29.978] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:36:29.979] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:36:29.980] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:36:29.981] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:36:29.981] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:36:29.982] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:36:29.983] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:36:29.984] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:36:29.985] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:36:29.986] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:36:29.986] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:36:29.987] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:36:29.988] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:36:29.989] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:36:30.015] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Ljava/lang/String;
+[00:36:30.015] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |acceptParsedText|
+[00:36:30.016] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding input parameter of type Lro/code4/textParserReview/entity/ParsedInput;
+[00:36:30.017] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |acceptParsedText|
+[00:36:30.018] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |acceptParsedText|
+[00:36:30.018] DEBUG s.d.schema.DefaultModelProvider          : Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+[00:36:30.018] DEBUG s.d.spring.web.scanners.ApiModelReader   : Did not find any parameter models for java.lang.String
+[00:36:30.018] DEBUG s.d.s.DefaultModelDependencyProvider     : Marking base type Ljava/lang/String; as seen
+[00:36:30.021] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property id
+[00:36:30.022] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:36:30.022] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'id' renamed to 'id'
+[00:36:30.022] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property id to model
+[00:36:30.022] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:36:30.023] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:36:30.023] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:36:30.023] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:36:30.023] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property fullText
+[00:36:30.023] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFullText
+[00:36:30.023] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'fullText' renamed to 'fullText'
+[00:36:30.023] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property fullText to model
+[00:36:30.023] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFullText
+[00:36:30.023] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFullText
+[00:36:30.023] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFullText
+[00:36:30.023] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFullText
+[00:36:30.024] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property textType
+[00:36:30.024] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextType
+[00:36:30.024] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'textType' renamed to 'textType'
+[00:36:30.024] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property textType to model
+[00:36:30.024] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextType
+[00:36:30.024] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextType
+[00:36:30.024] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextType
+[00:36:30.024] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextType
+[00:36:30.024] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property textSourceId
+[00:36:30.024] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextSourceId
+[00:36:30.025] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'textSourceId' renamed to 'textSourceId'
+[00:36:30.025] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property textSourceId to model
+[00:36:30.025] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextSourceId
+[00:36:30.025] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextSourceId
+[00:36:30.025] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextSourceId
+[00:36:30.025] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextSourceId
+[00:36:30.025] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property parsedFields
+[00:36:30.025] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedFields
+[00:36:30.026] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'parsedFields' renamed to 'parsedFields'
+[00:36:30.026] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property parsedFields to model
+[00:36:30.026] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedFields
+[00:36:30.026] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedFields
+[00:36:30.026] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedFields
+[00:36:30.026] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedFields
+[00:36:30.026] DEBUG s.d.schema.DefaultModelProvider          : Inferred 5 properties. Properties found fullText, id, parsedFields, textSourceId, textType
+[00:36:30.027] DEBUG s.d.spring.web.scanners.ApiModelReader   : Generated parameter model id: ParsedInput, name: ParsedInput, schema: {} models
+[00:36:30.027] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key ParsedInput
+[00:36:30.027] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding type Ljava/util/List<Lro/code4/textParserReview/entity/ParsedInputFields;>; for parameter parsedFields
+[00:36:30.027] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding collectionElement type Lro/code4/textParserReview/entity/ParsedInputFields;
+[00:36:30.027] DEBUG s.d.s.DefaultModelDependencyProvider     : Recursively resolving dependencies for collectionElement type Lro/code4/textParserReview/entity/ParsedInputFields;
+[00:36:30.030] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property id
+[00:36:30.031] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:36:30.031] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'id' renamed to 'id'
+[00:36:30.031] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property id to model
+[00:36:30.031] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:36:30.031] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:36:30.031] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:36:30.031] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:36:30.031] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property parsedInputParent
+[00:36:30.032] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedInputParent
+[00:36:30.032] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property parentField
+[00:36:30.032] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParentField
+[00:36:30.032] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property fieldName
+[00:36:30.032] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFieldName
+[00:36:30.032] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'fieldName' renamed to 'fieldName'
+[00:36:30.032] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property fieldName to model
+[00:36:30.032] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFieldName
+[00:36:30.032] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFieldName
+[00:36:30.032] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFieldName
+[00:36:30.033] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFieldName
+[00:36:30.033] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property startPos
+[00:36:30.033] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setStartPos
+[00:36:30.033] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'startPos' renamed to 'startPos'
+[00:36:30.033] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property startPos to model
+[00:36:30.033] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setStartPos
+[00:36:30.033] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setStartPos
+[00:36:30.033] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setStartPos
+[00:36:30.033] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setStartPos
+[00:36:30.033] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property endPos
+[00:36:30.034] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setEndPos
+[00:36:30.034] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'endPos' renamed to 'endPos'
+[00:36:30.034] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property endPos to model
+[00:36:30.034] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setEndPos
+[00:36:30.034] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setEndPos
+[00:36:30.034] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setEndPos
+[00:36:30.034] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setEndPos
+[00:36:30.034] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property parsedValue
+[00:36:30.035] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedValue
+[00:36:30.035] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'parsedValue' renamed to 'parsedValue'
+[00:36:30.035] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property parsedValue to model
+[00:36:30.035] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedValue
+[00:36:30.035] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedValue
+[00:36:30.035] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedValue
+[00:36:30.035] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedValue
+[00:36:30.035] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property votes
+[00:36:30.036] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setVotes
+[00:36:30.036] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'votes' renamed to 'votes'
+[00:36:30.036] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property votes to model
+[00:36:30.036] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setVotes
+[00:36:30.036] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setVotes
+[00:36:30.036] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setVotes
+[00:36:30.036] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setVotes
+[00:36:30.036] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property parserId
+[00:36:30.036] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParserId
+[00:36:30.036] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'parserId' renamed to 'parserId'
+[00:36:30.036] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property parserId to model
+[00:36:30.037] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParserId
+[00:36:30.037] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParserId
+[00:36:30.037] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParserId
+[00:36:30.037] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParserId
+[00:36:30.038] DEBUG s.d.schema.DefaultModelProvider          : Skipping model of type Ljava/util/List<Lro/code4/textParserReview/entity/ParsedInputFields;>; as its either a container type, map, enum or base type, or its already been handled
+[00:36:30.039] DEBUG s.d.schema.DefaultModelProvider          : Inferred 7 properties. Properties found endPos, fieldName, id, parsedValue, parserId, startPos, votes
+[00:36:30.039] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key ParsedInputFields
+[00:36:30.051] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:string
+[00:36:30.052] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method acceptParsedText
+[00:36:30.053] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:string
+[00:36:30.054] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Ljava/lang/String;
+[00:36:30.054] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |hello|
+[00:36:30.054] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |hello|
+[00:36:30.055] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |hello|
+[00:36:30.055] DEBUG s.d.spring.web.scanners.ApiModelReader   : Did not find any parameter models for java.lang.String
+[00:36:30.056] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:string
+[00:36:30.057] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method hello
+[00:36:30.057] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:string
+[00:36:30.144] INFO ro.code4.textParserReview.Application    : Started Application in 5.731 seconds (JVM running for 6.099)
+[00:37:33.596] INFO ro.code4.textParserReview.Application    : Starting Application on DESKTOP-SSN5OUM with PID 8320 (C:\Users\RJA\Repos\code4romania-parsed-text-reviewer\target\classes started by RJA in C:\Users\RJA\Repos\code4romania-parsed-text-reviewer)
+[00:37:33.601] INFO ro.code4.textParserReview.Application    : No active profile set, falling back to default profiles: default
+[00:37:40.250] INFO d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[00:37:40.284] INFO d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[00:37:40.299] INFO s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[00:37:40.328] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+[00:37:40.330] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |error|
+[00:37:40.332] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |error|
+[00:37:40.337] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |error|
+[00:37:40.352] DEBUG s.d.schema.DefaultModelProvider          : Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+[00:37:40.356] DEBUG s.d.spring.web.scanners.ApiModelReader   : Did not find any parameter models for java.util.Map<java.lang.String,java.lang.Object>
+[00:37:40.357] DEBUG s.d.s.DefaultModelDependencyProvider     : Marking base type Ljava/lang/Object; as seen
+[00:37:40.374] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:37:40.381] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:37:40.383] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:37:40.391] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:37:40.392] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:37:40.393] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:37:40.396] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:37:40.397] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:37:40.399] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:37:40.401] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:37:40.402] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:37:40.403] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:37:40.405] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:37:40.407] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:37:40.409] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:37:40.411] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:37:40.413] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:37:40.416] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:37:40.418] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:37:40.419] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:37:40.420] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:37:40.423] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:Map«string,object»
+[00:37:40.424] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method error
+[00:37:40.425] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:Map«string,object»
+[00:37:40.451] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+[00:37:40.452] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |errorHtml|
+[00:37:40.452] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |errorHtml|
+[00:37:40.453] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |errorHtml|
+[00:37:40.508] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property view
+[00:37:40.515] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:37:40.516] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'view' renamed to 'view'
+[00:37:40.517] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property view to model
+[00:37:40.517] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:37:40.518] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:37:40.518] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:37:40.518] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getView
+[00:37:40.521] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property model
+[00:37:40.521] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:37:40.521] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'model' renamed to 'model'
+[00:37:40.521] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property model to model
+[00:37:40.521] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:37:40.521] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:37:40.522] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:37:40.522] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModel
+[00:37:40.522] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property status
+[00:37:40.522] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:37:40.522] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'status' renamed to 'status'
+[00:37:40.522] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property status to model
+[00:37:40.522] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:37:40.523] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:37:40.523] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:37:40.523] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getStatus
+[00:37:40.524] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property empty
+[00:37:40.525] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:37:40.525] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'empty' renamed to 'empty'
+[00:37:40.525] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property empty to model
+[00:37:40.525] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:37:40.525] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:37:40.525] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:37:40.525] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isEmpty
+[00:37:40.525] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property viewName
+[00:37:40.526] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:37:40.526] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'viewName' renamed to 'viewName'
+[00:37:40.526] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property viewName to model
+[00:37:40.526] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:37:40.526] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:37:40.526] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:37:40.526] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getViewName
+[00:37:40.526] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property reference
+[00:37:40.527] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:37:40.527] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'reference' renamed to 'reference'
+[00:37:40.527] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property reference to model
+[00:37:40.527] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:37:40.527] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:37:40.527] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:37:40.527] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member isReference
+[00:37:40.527] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property modelMap
+[00:37:40.527] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:37:40.528] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'modelMap' renamed to 'modelMap'
+[00:37:40.528] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property modelMap to model
+[00:37:40.528] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:37:40.528] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:37:40.528] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:37:40.528] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getModelMap
+[00:37:40.538] DEBUG s.d.schema.DefaultModelProvider          : Inferred 7 properties. Properties found empty, model, modelMap, reference, status, view, viewName
+[00:37:40.539] DEBUG s.d.spring.web.scanners.ApiModelReader   : Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+[00:37:40.540] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key ModelAndView
+[00:37:40.541] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+[00:37:40.542] DEBUG s.d.s.DefaultModelDependencyProvider     : Recursively resolving dependencies for value type Ljava/lang/Object;
+[00:37:40.542] DEBUG s.d.s.DefaultModelDependencyProvider     : Marking base type Ljava/lang/Object; as seen
+[00:37:40.542] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding type Lorg/springframework/web/servlet/View; for parameter view
+[00:37:40.542] DEBUG s.d.s.DefaultModelDependencyProvider     : Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+[00:37:40.543] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property contentType
+[00:37:40.545] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:37:40.545] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'contentType' renamed to 'contentType'
+[00:37:40.546] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property contentType to model
+[00:37:40.546] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:37:40.548] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:37:40.550] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:37:40.551] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped getter for member getContentType
+[00:37:40.553] DEBUG s.d.schema.DefaultModelProvider          : Inferred 1 properties. Properties found contentType
+[00:37:40.555] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key View
+[00:37:40.559] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:37:40.561] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:37:40.565] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:37:40.571] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:37:40.574] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:37:40.575] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:37:40.577] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:37:40.577] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:37:40.579] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:37:40.584] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:37:40.586] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:37:40.588] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:37:40.590] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:37:40.590] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:37:40.592] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:37:40.594] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:37:40.596] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:37:40.597] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:37:40.602] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:37:40.603] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:37:40.604] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:37:40.605] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:ModelAndView
+[00:37:40.606] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method errorHtml
+[00:37:40.607] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:ModelAndView
+[00:37:40.646] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Ljava/lang/String;
+[00:37:40.647] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |acceptParsedText|
+[00:37:40.650] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding input parameter of type Lro/code4/textParserReview/entity/ParsedInput;
+[00:37:40.650] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |acceptParsedText|
+[00:37:40.653] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |acceptParsedText|
+[00:37:40.653] DEBUG s.d.schema.DefaultModelProvider          : Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+[00:37:40.653] DEBUG s.d.spring.web.scanners.ApiModelReader   : Did not find any parameter models for java.lang.String
+[00:37:40.653] DEBUG s.d.s.DefaultModelDependencyProvider     : Marking base type Ljava/lang/String; as seen
+[00:37:40.657] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property id
+[00:37:40.658] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:37:40.658] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'id' renamed to 'id'
+[00:37:40.659] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property id to model
+[00:37:40.659] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:37:40.659] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:37:40.659] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:37:40.659] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:37:40.659] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property fullText
+[00:37:40.659] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFullText
+[00:37:40.659] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'fullText' renamed to 'fullText'
+[00:37:40.659] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property fullText to model
+[00:37:40.660] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFullText
+[00:37:40.660] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFullText
+[00:37:40.660] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFullText
+[00:37:40.660] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFullText
+[00:37:40.660] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property textType
+[00:37:40.660] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextType
+[00:37:40.660] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'textType' renamed to 'textType'
+[00:37:40.660] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property textType to model
+[00:37:40.660] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextType
+[00:37:40.660] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextType
+[00:37:40.660] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextType
+[00:37:40.660] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextType
+[00:37:40.661] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property textSourceId
+[00:37:40.661] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextSourceId
+[00:37:40.661] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'textSourceId' renamed to 'textSourceId'
+[00:37:40.661] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property textSourceId to model
+[00:37:40.661] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextSourceId
+[00:37:40.661] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextSourceId
+[00:37:40.661] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextSourceId
+[00:37:40.661] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setTextSourceId
+[00:37:40.661] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property parsedFields
+[00:37:40.661] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedFields
+[00:37:40.662] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'parsedFields' renamed to 'parsedFields'
+[00:37:40.662] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property parsedFields to model
+[00:37:40.662] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedFields
+[00:37:40.662] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedFields
+[00:37:40.662] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedFields
+[00:37:40.662] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedFields
+[00:37:40.663] DEBUG s.d.schema.DefaultModelProvider          : Inferred 5 properties. Properties found fullText, id, parsedFields, textSourceId, textType
+[00:37:40.663] DEBUG s.d.spring.web.scanners.ApiModelReader   : Generated parameter model id: ParsedInput, name: ParsedInput, schema: {} models
+[00:37:40.663] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key ParsedInput
+[00:37:40.664] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding type Ljava/util/List<Lro/code4/textParserReview/entity/ParsedInputFields;>; for parameter parsedFields
+[00:37:40.664] DEBUG s.d.s.DefaultModelDependencyProvider     : Adding collectionElement type Lro/code4/textParserReview/entity/ParsedInputFields;
+[00:37:40.665] DEBUG s.d.s.DefaultModelDependencyProvider     : Recursively resolving dependencies for collectionElement type Lro/code4/textParserReview/entity/ParsedInputFields;
+[00:37:40.667] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property id
+[00:37:40.668] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:37:40.668] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'id' renamed to 'id'
+[00:37:40.668] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property id to model
+[00:37:40.668] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:37:40.668] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:37:40.668] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:37:40.668] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setId
+[00:37:40.669] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property parsedInputParent
+[00:37:40.669] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedInputParent
+[00:37:40.669] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property parentField
+[00:37:40.669] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParentField
+[00:37:40.669] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property fieldName
+[00:37:40.669] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFieldName
+[00:37:40.669] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'fieldName' renamed to 'fieldName'
+[00:37:40.670] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property fieldName to model
+[00:37:40.670] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFieldName
+[00:37:40.670] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFieldName
+[00:37:40.670] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFieldName
+[00:37:40.670] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setFieldName
+[00:37:40.670] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property startPos
+[00:37:40.670] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setStartPos
+[00:37:40.670] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'startPos' renamed to 'startPos'
+[00:37:40.670] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property startPos to model
+[00:37:40.670] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setStartPos
+[00:37:40.670] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setStartPos
+[00:37:40.670] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setStartPos
+[00:37:40.670] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setStartPos
+[00:37:40.670] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property endPos
+[00:37:40.671] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setEndPos
+[00:37:40.671] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'endPos' renamed to 'endPos'
+[00:37:40.671] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property endPos to model
+[00:37:40.671] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setEndPos
+[00:37:40.671] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setEndPos
+[00:37:40.671] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setEndPos
+[00:37:40.671] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setEndPos
+[00:37:40.671] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property parsedValue
+[00:37:40.671] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedValue
+[00:37:40.672] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'parsedValue' renamed to 'parsedValue'
+[00:37:40.672] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property parsedValue to model
+[00:37:40.672] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedValue
+[00:37:40.672] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedValue
+[00:37:40.672] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedValue
+[00:37:40.672] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParsedValue
+[00:37:40.672] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property votes
+[00:37:40.672] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setVotes
+[00:37:40.672] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'votes' renamed to 'votes'
+[00:37:40.672] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property votes to model
+[00:37:40.672] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setVotes
+[00:37:40.672] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setVotes
+[00:37:40.672] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setVotes
+[00:37:40.673] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setVotes
+[00:37:40.673] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Reading property parserId
+[00:37:40.674] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParserId
+[00:37:40.675] DEBUG p.ObjectMapperBeanPropertyNamingStrategy : Name 'parserId' renamed to 'parserId'
+[00:37:40.676] DEBUG s.d.s.p.OptimizedModelPropertiesProvider : Adding property parserId to model
+[00:37:40.676] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParserId
+[00:37:40.676] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParserId
+[00:37:40.676] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParserId
+[00:37:40.676] DEBUG s.d.s.property.bean.BeanModelProperty    : Evaluating unwrapped setter for member setParserId
+[00:37:40.678] DEBUG s.d.schema.DefaultModelProvider          : Skipping model of type Ljava/util/List<Lro/code4/textParserReview/entity/ParsedInputFields;>; as its either a container type, map, enum or base type, or its already been handled
+[00:37:40.678] DEBUG s.d.schema.DefaultModelProvider          : Inferred 7 properties. Properties found endPos, fieldName, id, parsedValue, parserId, startPos, votes
+[00:37:40.679] DEBUG s.d.spring.web.scanners.ApiModelReader   : Adding a new model with key ParsedInputFields
+[00:37:40.697] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:string
+[00:37:40.700] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method acceptParsedText
+[00:37:40.701] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:string
+[00:37:40.705] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Adding return parameter of type Ljava/lang/String;
+[00:37:40.705] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Reading parameters models for handlerMethod |hello|
+[00:37:40.705] DEBUG s.d.s.w.r.o.OperationModelsProvider      : Finished reading parameters models for handlerMethod |hello|
+[00:37:40.706] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider : Reading parameters models for handlerMethod |hello|
+[00:37:40.706] DEBUG s.d.spring.web.scanners.ApiModelReader   : Did not find any parameter models for java.lang.String
+[00:37:40.708] DEBUG s.d.s.w.r.o.OperationResponseClassReader : Setting spring response class to:string
+[00:37:40.709] DEBUG s.d.s.r.operation.OperationAuthReader    : Authorization count 0 for method hello
+[00:37:40.709] DEBUG .r.o.SwaggerOperationResponseClassReader : Setting response class to:string
+[00:37:40.825] INFO ro.code4.textParserReview.Application    : Started Application in 7.659 seconds (JVM running for 8.231)
