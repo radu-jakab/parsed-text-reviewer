@@ -13,8 +13,8 @@ public class ParsedInputFields {
 	private int id;
 
 	@ManyToOne
-	@JsonBackReference(value = "parsedInputParent")
-	private ParsedInput parsedInputParent;
+	@JsonBackReference(value = "parsedInputId")
+	private ParsedInput parsedInputId;
 
 	@OneToOne
 	@JsonBackReference(value = "parentField")
@@ -30,11 +30,11 @@ public class ParsedInputFields {
 	public ParsedInputFields() {
 	}
 
-	public ParsedInputFields(int id, ParsedInput parsedInputParent, ParsedInputFields parentField, String fieldName, int startPos,
-			int endPos, String parsedValue, double votes, String parserId) {
+	public ParsedInputFields(int id, ParsedInput parsedInputId, ParsedInputFields parentField, String fieldName, int startPos, int endPos,
+			String parsedValue, double votes, String parserId) {
 		super();
 		this.id = id;
-		this.parsedInputParent = parsedInputParent;
+		this.parsedInputId = parsedInputId;
 		this.parentField = parentField;
 		this.fieldName = fieldName;
 		this.startPos = startPos;
@@ -53,11 +53,11 @@ public class ParsedInputFields {
 	}
 
 	public ParsedInput getParsedInputParent() {
-		return parsedInputParent;
+		return parsedInputId;
 	}
 
 	public void setParsedInputParent(ParsedInput parsedInputParent) {
-		this.parsedInputParent = parsedInputParent;
+		this.parsedInputId = parsedInputParent;
 	}
 
 	public ParsedInputFields getParentField() {
