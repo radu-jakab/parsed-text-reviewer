@@ -5,20 +5,21 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
 
 @Entity
-public class ParsedInputFields {
+@ToString
+@EqualsAndHashCode
+public class ParsedInputField {
 	@Id
 	private int id;
 
 	@ManyToOne
-	@JsonBackReference(value = "parsedInputId")
 	private ParsedInput parsedInputId;
 
 	@OneToOne
-	@JsonBackReference(value = "parentField")
-	private ParsedInputFields parentField;
+	private ParsedInputField parentField;
 
 	private String fieldName;
 	private int startPos;
@@ -27,10 +28,10 @@ public class ParsedInputFields {
 	private double votes;
 	private String parserId;
 
-	public ParsedInputFields() {
+	public ParsedInputField() {
 	}
 
-	public ParsedInputFields(int id, ParsedInput parsedInputId, ParsedInputFields parentField, String fieldName, int startPos, int endPos,
+	public ParsedInputField(int id, ParsedInput parsedInputId, ParsedInputField parentField, String fieldName, int startPos, int endPos,
 			String parsedValue, double votes, String parserId) {
 		super();
 		this.id = id;
@@ -60,11 +61,11 @@ public class ParsedInputFields {
 		this.parsedInputId = parsedInputParent;
 	}
 
-	public ParsedInputFields getParentField() {
+	public ParsedInputField getParentField() {
 		return parentField;
 	}
 
-	public void setParentField(ParsedInputFields parentField) {
+	public void setParentField(ParsedInputField parentField) {
 		this.parentField = parentField;
 	}
 

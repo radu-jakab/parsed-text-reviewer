@@ -1,12 +1,19 @@
 package ro.code4.textParserReview.entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
+
 @Entity
+@ToString
+@EqualsAndHashCode
 public class ParsedInput {
 	@Id
 	private int id;
@@ -14,13 +21,13 @@ public class ParsedInput {
 	private String textType;
 	private String textSourceId;
 
-	@OneToMany
-	private List<ParsedInputFields> parsedFields;
+	@OneToMany(mappedBy = "parsedInputId", cascade = CascadeType.ALL)
+	private List<ParsedInputField> parsedFields = new ArrayList<>();
 
 	public ParsedInput() {
 	}
 
-	public ParsedInput(int id, String fullText, String textType, String textSourceId, List<ParsedInputFields> parsedFields) {
+	public ParsedInput(int id, String fullText, String textType, String textSourceId, List<ParsedInputField> parsedFields) {
 		super();
 		this.id = id;
 		this.fullText = fullText;
@@ -61,11 +68,11 @@ public class ParsedInput {
 		this.textSourceId = textSourceId;
 	}
 
-	public List<ParsedInputFields> getParsedFields() {
+	public List<ParsedInputField> getParsedFields() {
 		return parsedFields;
 	}
 
-	public void setParsedFields(List<ParsedInputFields> parsedFields) {
+	public void setParsedFields(List<ParsedInputField> parsedFields) {
 		this.parsedFields = parsedFields;
 	}
 
