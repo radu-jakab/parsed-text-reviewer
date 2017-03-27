@@ -9,5 +9,7 @@ Execute ./target/parsedTextReviewer.jar
 
 ### Configuration
 ```
-See src/main/resources/application.properties
+See ./src/main/resources/application.properties
+Default context is /parsedTextReview
+Default port is 8080
 ```
