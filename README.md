@@ -1,10 +1,17 @@
 # parsed-text-reviewer
 A generic system that allows reviewing of text parsing results
 
-### To run
+### Build it
+```
+In the root folder, run mvn -clean install
+If successful, this will create ./target/parsedTextReviewer.jar
+```
+
+### Run it
 ```
 Your machine must run Java 8
-Execute ./target/parsedTextReviewer.jar
+Change dir to ./target
+Run java -jar parsedTextReviewer.jar
 ```
 
 ### Configuration
