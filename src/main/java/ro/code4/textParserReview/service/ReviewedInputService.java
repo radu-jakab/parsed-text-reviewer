@@ -22,7 +22,7 @@ public class ReviewedInputService {
 		// check if there is already a reviewed input entry for this textType + id
 		String textType = reviewedInputTO.getTextType();
 		String sourceId = reviewedInputTO.getTextSourceId();
-		ReviewedInput existingEntity = reviewedInputRepo.findByTextTypeAndSourceId(textType, sourceId);
+		ReviewedInput existingEntity = reviewedInputRepo.findByTextTypeAndTextSourceId(textType, sourceId);
 
 		if (existingEntity != null) {
 			// if yes, throw exception for now

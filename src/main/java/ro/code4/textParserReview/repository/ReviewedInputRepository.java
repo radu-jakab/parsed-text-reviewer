@@ -7,5 +7,5 @@ import org.springframework.data.repository.CrudRepository;
 import ro.code4.textParserReview.entity.ReviewedInput;
 
 public interface ReviewedInputRepository extends CrudRepository<ReviewedInput, Serializable> {
-	public ReviewedInput findByTextTypeAndSourceId(String textType, String sourceId);
+	public ReviewedInput findByTextTypeAndTextSourceId(String textType, String textSourceId);
 }
