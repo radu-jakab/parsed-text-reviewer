@@ -3,9 +3,7 @@ Backend - receive parsed inputs (findings)
 - unit tests
 
 Backend - for manual review
-- controllers
-- transfer objects
-- service layer (receive confirmed finding)
+- all done, but not thoroughly tested
 - unit tests
 
 Backend - specialized output storage
@@ -20,7 +18,7 @@ For example, a specialized structure for DNA communicates.
 Backend - very basic user definition
 - a users table
 - UI or API access not required, we can just INSERT these, there will not be a huge lot of them
-- an authentication controller & service 
+- an authentication controller & service
 
 Frontend
 - app setup

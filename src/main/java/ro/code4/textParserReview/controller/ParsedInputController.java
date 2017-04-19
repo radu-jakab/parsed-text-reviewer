@@ -5,6 +5,7 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -30,14 +31,13 @@ public class ParsedInputController {
 	}
 
 	@RequestMapping(path = "/accept", method = RequestMethod.POST)
-	public @ResponseBody String acceptParsedText(@RequestBody ParsedInputTO input) {
+	public @ResponseBody HttpStatus acceptParsedText(@RequestBody ParsedInputTO input) {
 		parsedInputService.acceptTextParsing(input);
-
-		return "accepted!";
+		return HttpStatus.OK;
 	}
 
 	@RequestMapping(path = "/list", method = RequestMethod.GET)
-	public @ResponseBody List<ParsedInputTO> list() {
+	public @ResponseBody List<ParsedInputTO> getAll() {
 		return parsedInputService.list();
 	}
 

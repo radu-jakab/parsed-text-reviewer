@@ -28,7 +28,7 @@ public class ReviewedInputConverter {
 		ReviewedInputFieldConverter fieldConverter = new ReviewedInputFieldConverter();
 		for (ParsedInputFieldTO fieldTO : to.getParsedFields()) {
 			ReviewedInputField convertedField = fieldConverter.convertTOtoEntity(fieldTO);
-			convertedField.setReviewedInputParent(result);
+			convertedField.setReviewedInputId(result);
 			result.getReviewedFields().add(convertedField);
 			fieldsMapping.put(fieldTO, convertedField);
 		}
