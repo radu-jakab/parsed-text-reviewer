@@ -9,6 +9,7 @@ import ro.code4.textParserReview.entity.ReviewedInput;
 import ro.code4.textParserReview.entity.ReviewedInputField;
 import ro.code4.textParserReview.transferObjects.ParsedInputFieldTO;
 import ro.code4.textParserReview.transferObjects.ParsedInputTO;
+import ro.code4.textParserReview.transferObjects.ShallowReviewedInputTO;
 
 public class ReviewedInputConverter {
 	private static Logger LOGGER = Logger.getLogger(ReviewedInputConverter.class);
@@ -68,6 +69,16 @@ public class ReviewedInputConverter {
 			ParsedInputFieldTO fieldTO = fieldConverter.convertEntityToTO(field);
 			result.getParsedFields().add(fieldTO);
 		}
+
+		return result;
+	}
+
+	public ShallowReviewedInputTO convertEntityToShallowTO(ReviewedInput entity) {
+		ShallowReviewedInputTO result = new ShallowReviewedInputTO();
+
+		result.setId(entity.getId());
+		result.setTextSourceId(entity.getTextSourceId());
+		result.setTextType(entity.getTextType());
 
 		return result;
 	}

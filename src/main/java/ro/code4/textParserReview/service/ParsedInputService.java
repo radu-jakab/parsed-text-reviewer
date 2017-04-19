@@ -95,4 +95,10 @@ public class ParsedInputService {
 
 		return result;
 	}
+
+	public ParsedInputTO getById(int id) {
+		ParsedInputConverter converter = new ParsedInputConverter();
+		ParsedInput parsedInput = parsedInputRepo.findOne(id);
+		return converter.convertEntityToTO(parsedInput);
+	}
 }
