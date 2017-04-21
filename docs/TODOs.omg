@@ -1,0 +1,35 @@
+Backend - receive parsed inputs (findings)
+- all done, but not thoroughly tested
+- unit tests
+
+Backend - for manual review
+- all done, but not thoroughly tested
+- unit tests
+
+Backend - specialized output storage
+All findings are generic; once reviewed, we need to store them as what they really are, so they may be useful.
+For example, a specialized structure for DNA communicates.
+- specialized structure for DNA general communicates
+- specialized structure for DNA conviction communicates
+- specialized structure for Parlament Members (CDEP + SENAT)
+- plus, for each of them, a component that takes a set of findings and turns them into an object of each structure
+- unit tests
+
+Backend - very basic user definition
+- a users table
+- UI or API access not required, we can just INSERT these, there will not be a huge lot of them
+- an authentication controller & service
+
+Frontend
+- app setup
+- view 1: list of all unreviewed findings
+- view 2: list of all reviewed findings, with maybe a search by some fields; also, an "Export as JSON" function
+- view 3: generic view to review one finding
+
+Scrappers
+- DNA
+- ANI
+- DIICOT
+
+See also
+- a few TODO markers thrown around the app
