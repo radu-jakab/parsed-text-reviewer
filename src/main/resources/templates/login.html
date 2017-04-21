@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
-    <head>
-        <title>Code4 Curation Tool</title>
-    </head>
-    <body>
-    <div style="margin-top: 100px; text-align: center;">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="utf-8"/>
+    <title>Code4 Curation Tool</title>
+</head>
+<body>
+<div class="row" style="height: 100px"></div>
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-8">
         <div th:if="${param.error}">
             Invalid username and password.
         </div>
@@ -15,8 +22,9 @@
         <form th:action="@{/login}" method="post">
             <div><label> Username: <input type="text" name="username" value="user"/> </label></div>
             <div><label> Password: <input type="password" name="password" value="password"/> </label></div>
-            <div><input type="submit" value="Sign In"/></div>
+            <div><input type="submit" value="Sign In" class=".btn-info"/></div>
         </form>
     </div>
-    </body>
+</div>
+</body>
 </html>

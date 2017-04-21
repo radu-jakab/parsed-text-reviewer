@@ -1,4 +1,4 @@
-package hello;
+package ro.code4.curator;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,8 +9,8 @@ import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestBuilders.FormLoginRequestBuilder;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
-import ro.code4.textParserReview.Application;
-import ro.code4.textParserReview.WebSecurityConfig;
+import ro.code4.curator.config.MockData;
+import ro.code4.curator.entity.User;
 
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestBuilders.formLogin;
 import static org.springframework.security.test.web.servlet.response.SecurityMockMvcResultMatchers.authenticated;
@@ -18,23 +18,26 @@ import static org.springframework.security.test.web.servlet.response.SecurityMoc
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.redirectedUrlPattern;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import static ro.code4.textParserReview.WebSecurityConfig.testUser;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Application.class)
 @AutoConfigureMockMvc
 public class ApplicationTest {
+
     @Autowired
     private MockMvc mockMvc;
+
+    @Autowired
+    private MockData testData;
 
     @Test
     public void loginWithValidUserThenAuthenticated() throws Exception {
         FormLoginRequestBuilder login = formLogin()
-            .user(testUser.getUsername())
-            .password(testUser.getPassword());
+            .user(getTestUser().getUsername())
+            .password(getTestUser().getPassword());
 
         mockMvc.perform(login)
-            .andExpect(authenticated().withUsername(testUser.getUsername()));
+            .andExpect(authenticated().withUsername(getTestUser().getUsername()));
     }
 
     @Test
@@ -55,7 +58,7 @@ public class ApplicationTest {
 
     @Test
     public void accessSecuredResourceUnauthenticatedThenRedirectsToLogin() throws Exception {
-        mockMvc.perform(get("/hello"))
+        mockMvc.perform(get("/findings"))
             .andExpect(status().is3xxRedirection())
             .andExpect(redirectedUrlPattern("**/login"));
     }
@@ -63,7 +66,11 @@ public class ApplicationTest {
     @Test
     @WithMockUser
     public void accessSecuredResourceAuthenticatedThenOk() throws Exception {
-        mockMvc.perform(get("/hello"))
+        mockMvc.perform(get("/findings"))
                 .andExpect(status().isOk());
+    }
+
+    private User getTestUser() {
+        return testData.getTestUser();
     }
 }

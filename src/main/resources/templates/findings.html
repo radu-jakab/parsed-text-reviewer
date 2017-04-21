@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta charset="utf-8"/>
+        <title>Findings Viewer</title>
+    </head>
+    <body>
+    <div class="container-fluid">
+
+    <h3 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]] !</h3>
+
+        <p>You will soon get to view here, all the curated content with
+            <a style="font-size: large;  color: darkblue">highlighted</a>
+            <a style="font-size: large;  color: red">findings</a>.</p>
+
+        <p>Until then, you can play with our API <a th:href="@{/swagger-ui.html#/}">here</a> </p>
+        <form th:action="@{/logout}" method="post">
+            <input type="submit" value="Sign Out"/>
+        </form>
+    </div>
+    </body>
+</html>
